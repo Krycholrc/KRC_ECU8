@@ -6,10 +6,33 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
-		case Gpio::B14: return "B14 Output";
-		case Gpio::E2: return "VR/Hall 1 (E2)";
-		case Gpio::E3: return "VR/Hall 2 (E3)";
-		case Gpio::E4: return "VR/Hall 3 (E4)";
+		case Gpio::B12: return "IN1 (PB12)";
+		case Gpio::B13: return "IN2 (PB13)";
+		case Gpio::B14: return "IN3 (PB14)";
+		case Gpio::B15: return "BOOST (PB15)";
+		case Gpio::B7: return "IDLE2 (PB7)";
+		case Gpio::B8: return "FAN (PB8)";
+		case Gpio::B9: return "IDLE1 (PB9)";
+		case Gpio::C13: return "IGN3 (PC13)";
+		case Gpio::C6: return "INJ1 (PC6)";
+		case Gpio::C7: return "A/C_SW (PC7)";
+		case Gpio::D10: return "INJ2 (PD10)";
+		case Gpio::D11: return "VANOS (PD11)";
+		case Gpio::D12: return "INJ4 (PD12)";
+		case Gpio::D13: return "INJ6 (PD13)";
+		case Gpio::D14: return "INJ3 (PD14)";
+		case Gpio::D15: return "INJ5 (PD15)";
+		case Gpio::D3: return "CRANK (PD3)";
+		case Gpio::D4: return "CAM (PD4)";
+		case Gpio::D7: return "TACHO (PD7)";
+		case Gpio::E0: return "CEL (PE0)";
+		case Gpio::E11: return "FUEL_PUMP (PE11)";
+		case Gpio::E15: return "LAUNCH (PE15)";
+		case Gpio::E2: return "IGN1 (PE2)";
+		case Gpio::E3: return "IGN2 (PE3)";
+		case Gpio::E4: return "IGN5 (PE4)";
+		case Gpio::E5: return "IGN6 (PE5)";
+		case Gpio::E6: return "IGN4 (PE6)";
 		default: return nullptr;
 	}
 	return nullptr;
