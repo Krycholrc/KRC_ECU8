@@ -4853,7 +4853,7 @@ end</constant>
          0.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20240920" nPages="1" signature="rusEFI main.2024.09.24.KRC_M52_2.0.3854043114" version="5.0"/>
+    <versionInfo firmwareInfo="20240920" nPages="1" signature="rusEFI main.2024.09.24.KRC_EFI8.1400551136" version="5.0"/>
     <bibliography author="rusEFI 20240920" writeDate="date"/>
     <settings/>
     <userComments/>
