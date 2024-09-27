@@ -46,6 +46,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->etbIo[0].directionPin1 = Gpio::C7;   // DIR pin
 	engineConfiguration->etbIo[0].disablePin = Gpio::C8;      // Disable pin
 	engineConfiguration->etbIo[0].directionPin2 = Gpio::Unassigned;
+	engineConfiguration->etb_use_two_wires = false;
 
 	//Bias resistor
 	engineConfiguration->clt.config.bias_resistor = 2200;
@@ -94,5 +95,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
 	engineConfiguration->injectionMode = IM_SEQUENTIAL;
 	
+	//Knock 
+	engineConfiguration->enableSoftwareKnock = true;
 
 }
