@@ -6,7 +6,8 @@
 #define ts_show_analog_divider true
 #define ts_show_spi true
 #define ts_show_sd_card true
-#define ts_show_can_pins true
+#define ts_show_sd_pins false
+#define ts_show_can_pins false
 #define ts_show_tunerstudio_port true
 #define ts_show_can2 false
 #define ts_show_hd false
@@ -14,7 +15,6 @@
 #define ts_show_popular_vehicles false
 #define ts_show_software_knock true
 #define ts_show_hardware_simulator true
-#define ts_show_sd_pins true
 #define ts_show_vbatt true
 #define ts_show_clt_iat_pullup true
 #define ts_show_tcu false
