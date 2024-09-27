@@ -4764,7 +4764,7 @@ end</constant>
          0.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20240920" nPages="1" signature="rusEFI main.2024.09.27.KRC_EFI8.3743690060" version="5.0"/>
+    <versionInfo firmwareInfo="20240920" nPages="1" signature="rusEFI main.2024.09.27.KRC_EFI8.3028909308" version="5.0"/>
     <bibliography author="rusEFI 20240920" writeDate="date"/>
     <settings/>
     <userComments/>
