@@ -42,8 +42,8 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->baroSensor.type = MT_MPXH6400;
 
 	//DBW throotle
-	engineConfiguration->etbIo[0].controlPin = Gpio::C6;      // PWM pin
-	engineConfiguration->etbIo[0].directionPin1 = Gpio::C7;   // DIR pin
+	engineConfiguration->etbIo[0].controlPin = Gpio::C7;      // PWM pin
+	engineConfiguration->etbIo[0].directionPin1 = Gpio::C6;   // DIR pin
 	engineConfiguration->etbIo[0].disablePin = Gpio::C8;      // Disable pin
 	engineConfiguration->etbIo[0].directionPin2 = Gpio::Unassigned;
 	engineConfiguration->etb_use_two_wires = false;
