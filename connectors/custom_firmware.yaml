@@ -193,7 +193,7 @@ pins:
 
   - id: E14
     class: switch_inputs
-    ts_name: IN3
+    ts_name: FLEX
 
   - id: E15
     class: switch_inputs
